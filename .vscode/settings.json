@@ -2,6 +2,7 @@
     "files.associations": {
         "*.toml": "toml",
         "vector": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "ranges": "cpp"
     }
 }

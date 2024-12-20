@@ -2,10 +2,11 @@
 #include <iostream>
 #include<cmath>
 #include<algorithm>
+#include<ranges>
 using namespace std;
 int main(){
-    vector<string> v(128);
-    string a="fd";
-    cout<<a.contains(string{'f'});
+    vector<int> v;
+    min(v.begin(),v.end());
+    cout<<(v.begin()==v.end());
     return 0;
 }
