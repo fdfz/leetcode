@@ -5,8 +5,8 @@
 #include<ranges>
 using namespace std;
 int main(){
-    vector<int> v;
-    min(v.begin(),v.end());
-    cout<<(v.begin()==v.end());
+    string a="abc";
+
+    cout<<a.substr(0,1);
     return 0;
 }
