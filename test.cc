@@ -1,16 +1,16 @@
-#include<cstring>
+#include <cstring>
 #include <iostream>
 #include <string_view>
 #include <string>
 #include <vector>
-#include<tuple>
-#include<numeric>
+#include <tuple>
+#include <numeric>
+#include <ranges>
+#include <print>
 using namespace std;
-int main() {
-    vector<int> v(10);
-    iota(v.begin(),v.end(),0);
-    for(const auto& e:v){
-        cout<<e<<" ";
-    }
+int main()
+{
+    for (auto i : views::iota(10)|views::take(3))
+        print("{}", i);
     return 0;
 }

@@ -3,10 +3,9 @@
         {
             "type": "cppbuild",
             "label": "C/C++: clang++ 生成活动文件",
-            "command": "/usr/bin/clang++",
+            "command": "/usr/bin/clang++-19",
             "args": [
                 "-fstandalone-debug",
-                // "-fsanitize=address",
                 "-fsanitize=undefined",
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
@@ -31,7 +30,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: clang 生成活动文件",
-            "command": "/usr/bin/clang",
+            "command": "/usr/bin/clang-19",
             "args": [
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
@@ -51,14 +50,15 @@
         },
         {
             "type": "cppbuild",
-            "label": "C/C++: g++-13 生成活动文件",
-            "command": "/usr/bin/g++-13",
+            "label": "C/C++: g++-14 生成活动文件",
+            "command": "/usr/bin/g++-14",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-std=c++23"
             ],
             "options": {
                 "cwd": "${fileDirname}"
