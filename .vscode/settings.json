@@ -3,6 +3,7 @@
         "*.toml": "toml",
         "vector": "cpp",
         "string": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "numeric": "cpp"
     }
 }
