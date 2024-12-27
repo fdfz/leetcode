@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "*.toml": "toml",
-        "vector": "cpp",
-        "string": "cpp",
-        "ranges": "cpp",
-        "numeric": "cpp"
-    }
-}
