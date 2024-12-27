@@ -41,7 +41,7 @@ public:
     }
     vector<string> queentostring(vector<int> &queens, int n)
     {
-        vector<string> res(n);
+        vector<string> res;
         for (auto i : queens)
         {
             string a;
@@ -61,3 +61,6 @@ public:
         return res;
     }
 };
+int main(){
+    Solution().solveNQueens(4);
+}

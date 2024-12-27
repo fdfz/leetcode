@@ -10,7 +10,7 @@
 using namespace std;
 int main()
 {
-    for (auto i : views::iota(10)|views::take(3))
-        print("{}", i);
+    int n;
+    print("{}",n);
     return 0;
 }
