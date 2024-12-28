@@ -8,9 +8,13 @@
 #include <ranges>
 #include <print>
 using namespace std;
+void f(vector<int> &v){
+    v.push_back(1);
+}
 int main()
 {
-    int n;
-    print("{}",n);
+    vector<int> v;
+    f(v);
+    print("{}",v.empty());
     return 0;
 }
