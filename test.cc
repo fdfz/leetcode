@@ -7,14 +7,13 @@
 #include <numeric>
 #include <ranges>
 #include <print>
+#include <unordered_map>
 using namespace std;
-void f(vector<int> &v){
-    v.push_back(1);
-}
 int main()
 {
-    vector<int> v;
-    f(v);
-    print("{}",v.empty());
-    return 0;
+    vector<int> v{2,1};
+    sort(v.begin(),v.end(),[](auto& a, auto& b){b=90;return a<b;});
+    for(auto& i:v){
+        print("{}",i);
+    }
 }

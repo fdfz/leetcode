@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.toml": "toml",
+        "vector": "cpp",
+        "unordered_map": "cpp",
+        "ostream": "cpp",
+        "print": "cpp",
+        "ranges": "cpp"
+    }
+}
