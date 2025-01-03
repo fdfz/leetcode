@@ -5,6 +5,10 @@
         "unordered_map": "cpp",
         "ostream": "cpp",
         "print": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "span": "cpp"
     }
 }

@@ -8,12 +8,15 @@
 #include <ranges>
 #include <print>
 #include <unordered_map>
+#include <cmath>
 using namespace std;
+string f(){
+    string a="";
+    string_view b(a);
+    return string(b);
+}
 int main()
 {
-    vector<int> v{2,1};
-    sort(v.begin(),v.end(),[](auto& a, auto& b){b=90;return a<b;});
-    for(auto& i:v){
-        print("{}",i);
-    }
+    int a=0;
+    cout<<++a;
 }
