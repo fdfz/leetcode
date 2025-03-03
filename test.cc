@@ -1,22 +1,23 @@
+#include <cmath>
 #include <cstring>
 #include <iostream>
-#include <string_view>
-#include <string>
-#include <vector>
-#include <tuple>
 #include <numeric>
-#include <ranges>
 #include <print>
+#include <ranges>
+#include <string>
+#include <string_view>
+#include <tuple>
 #include <unordered_map>
-#include <cmath>
+#include <vector>
 using namespace std;
-string f(){
-    string a="";
+string f()
+{
+    string a = "";
     string_view b(a);
     return string(b);
 }
 int main()
 {
-    int a=0;
-    cout<<++a;
+    int a = 0;
+    print("{}", ++a);
 }
